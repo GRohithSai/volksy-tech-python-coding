@@ -1,3 +1,4 @@
 #!/usr/bin/python3
 for i in range(99):
-    print("{:d}=0x{:x}".format(i,i))
+    print("{:02d}".format(i),end=',')
+print(99)
